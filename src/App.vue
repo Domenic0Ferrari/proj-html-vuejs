@@ -17,11 +17,9 @@ export default {
 </script>
 
 <template>
-    <div class="container">
-        <appHeader />
-        <appMain />
-        <appFooter />
-    </div>
+    <appHeader />
+    <appMain />
+    <appFooter />
 </template>
 
 <style lang="scss">
