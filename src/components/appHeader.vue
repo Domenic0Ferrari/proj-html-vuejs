@@ -1,5 +1,6 @@
 <script>
-import { faFacebookF, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 export default {
     data() {
         return {
@@ -10,7 +11,8 @@ export default {
         faFacebookF,
         faTwitter,
         faInstagram,
-        faYoutube
+        faYoutube,
+        faCartShopping
     }
 }
 </script>
@@ -29,7 +31,9 @@ export default {
                     <div class="col-9 d-flex justify-content-end align-items-center">
                         <button>Shopping Cart</button>
                         <button>My Account</button>
-                        <button>Cart</button>
+                        <button>
+                            <font-awesome-icon icon="fa-solid fa-cart-shopping" />CART
+                        </button>
                     </div>
                 </div>
             </div>
@@ -54,6 +58,14 @@ header {
             height: 100%;
 
             .row {
+                height: 100%;
+            }
+
+            button {
+                color: $brand_second;
+                background-color: #FFFFFF;
+                border: 0;
+                border-right: 1px solid $brand_second;
                 height: 100%;
             }
         }
