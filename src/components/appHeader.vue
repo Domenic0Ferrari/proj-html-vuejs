@@ -1,13 +1,22 @@
 <script>
 import headerTop from './headerTop.vue';
+import headerBottom from './headerBottom.vue'
 export default {
     data() {
         return {
-
+            menu: [
+                'Home',
+                'Shop',
+                'Products',
+                'Categories',
+                'News',
+                'Elements'
+            ]
         }
     },
     components: {
         headerTop,
+        headerBottom
     }
 }
 </script>
@@ -15,9 +24,7 @@ export default {
 <template>
     <header>
         <headerTop />
-        <div class="header_bottom">
-            <div class="container"></div>
-        </div>
+        <headerBottom :menu="menu" />
     </header>
 </template>
 

@@ -13,7 +13,8 @@ export default {
         faInstagram,
         faYoutube,
         faCartShopping,
-        faAngleDown, faChevronDown
+        faAngleDown,
+        faChevronDown
     }
 }
 </script>
