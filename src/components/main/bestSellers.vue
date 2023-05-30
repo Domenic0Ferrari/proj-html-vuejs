@@ -1,6 +1,10 @@
 <script>
+import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 export default {
-
+    components: {
+        faChevronLeft,
+        faChevronRight
+    }
 }
 </script>
 
@@ -13,7 +17,7 @@ export default {
         </div>
         <h5>Must have products from our top sellers</h5>
         <div class="row">
-            <button class="btn-1">freccia</button>
+            <button class="btn-1"><font-awesome-icon icon="fa-solid fa-chevron-left" /></button>
             <div class="col">
                 <img src="../../assets/images/spring_printed_dress-200x260.jpg" alt="#">
             </div>
@@ -29,7 +33,7 @@ export default {
             <div class="col">
                 <img src="../../assets/images/hipster_black_top-200x260.jpg" alt="#">
             </div>
-            <button class="btn-2">freccia</button>
+            <button class="btn-2"><font-awesome-icon icon="fa-solid fa-chevron-right" /></button>
         </div>
     </div>
 </template>
@@ -57,9 +61,12 @@ h5 {
 button {
     background-color: rgba($color: $brand_first, $alpha: 0.3);
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 60px;
     top: 100px;
+    border: 0;
+    color: white;
+    font-size: 12px;
 }
 
 .btn-1 {
