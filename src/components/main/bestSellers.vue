@@ -33,7 +33,7 @@ export default {
             <div class="col">
                 <img src="../../assets/images/hipster_black_top-200x260.jpg" alt="#">
             </div>
-            <button class="btn-2"><font-awesome-icon icon="fa-solid fa-chevron-right" /></button>
+            <button><font-awesome-icon icon="fa-solid fa-chevron-right" /></button>
         </div>
     </div>
 </template>
@@ -41,10 +41,6 @@ export default {
 <style lang="scss" scoped>
 @use '../../assets/style/general.scss' as *;
 
-h5 {
-    font-size: 14px;
-    color: $brand_first;
-}
 
 button {
     background-color: rgba($color: $brand_first, $alpha: 0.3);

@@ -37,10 +37,6 @@ export default {
 <style lang="scss" scoped>
 @use '../../assets/style/general.scss' as *;
 
-h5 {
-    font-size: 14px;
-    color: $brand_first;
-}
 
 button {
     background-color: $brand_fourth;
