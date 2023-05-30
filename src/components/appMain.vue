@@ -1,5 +1,6 @@
 <script>
 import firstMain from './firstMain.vue';
+import productsMain from './productsMain.vue';
 export default {
     data() {
         return {
@@ -7,6 +8,7 @@ export default {
         }
     }, components: {
         firstMain,
+        productsMain,
     }
 }
 </script>
@@ -14,6 +16,7 @@ export default {
 <template>
     <main>
         <firstMain />
+        <productsMain />
     </main>
 </template>
 
