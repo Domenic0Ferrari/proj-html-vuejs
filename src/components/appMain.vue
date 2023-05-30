@@ -1,4 +1,5 @@
 <script>
+import CollectMain from './collectMain.vue';
 import firstMain from './firstMain.vue';
 import productsMain from './productsMain.vue';
 export default {
@@ -9,6 +10,7 @@ export default {
     }, components: {
         firstMain,
         productsMain,
+        CollectMain
     }
 }
 </script>
@@ -17,6 +19,7 @@ export default {
     <main>
         <firstMain />
         <productsMain />
+        <CollectMain />
     </main>
 </template>
 
