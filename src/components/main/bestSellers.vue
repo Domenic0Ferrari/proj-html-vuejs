@@ -16,8 +16,8 @@ export default {
             <hr>
         </div>
         <h5>Must have products from our top sellers</h5>
-        <div class="row">
-            <button class="btn-1"><font-awesome-icon icon="fa-solid fa-chevron-left" /></button>
+        <div class="row align-items-center">
+            <button><font-awesome-icon icon="fa-solid fa-chevron-left" /></button>
             <div class="col">
                 <img src="../../assets/images/spring_printed_dress-200x260.jpg" alt="#">
             </div>
@@ -54,26 +54,12 @@ h5 {
     color: $brand_first;
 }
 
-.row {
-    position: relative;
-}
-
 button {
     background-color: rgba($color: $brand_first, $alpha: 0.3);
-    position: absolute;
     width: 30px;
     height: 60px;
-    top: 100px;
     border: 0;
     color: white;
     font-size: 12px;
-}
-
-.btn-1 {
-    left: 0;
-}
-
-.btn-2 {
-    right: 0;
 }
 </style>

@@ -1,6 +1,10 @@
 <script>
+import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 export default {
-
+    components: {
+        faChevronLeft,
+        faChevronRight
+    }
 }
 </script>
 
@@ -14,7 +18,7 @@ export default {
         <h5>Brand new products from top designer</h5>
     </div>
     <div class="d-flex justify-content-between mb-5 align-items-center">
-        <button>freccia</button>
+        <button><font-awesome-icon icon="fa-solid fa-chevron-left" /></button>
         <div class="card">
             <img src="../../assets/images/black_elegant_leather_jacket-200x260.jpg" alt="#">
         </div>
@@ -30,7 +34,7 @@ export default {
         <div class="card">
             <img src="../../assets/images/modern_love_tee-200x260.jpg" alt="#">
         </div>
-        <button>freccia</button>
+        <button><font-awesome-icon icon="fa-solid fa-chevron-right" /></button>
     </div>
 </template>
 
@@ -49,6 +53,15 @@ h5 {
     font-size: 14px;
     color: $brand_first;
     text-align: center;
+}
+
+button {
+    background-color: rgba($color: $brand_first, $alpha: 0.3);
+    width: 30px;
+    height: 60px;
+    border: 0;
+    color: white;
+    font-size: 12px;
 }
 
 .card {
