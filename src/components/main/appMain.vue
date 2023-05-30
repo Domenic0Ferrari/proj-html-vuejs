@@ -6,6 +6,7 @@ import bestSellers from './bestSellers.vue';
 import FreeShipping from './freeShipping.vue';
 import newArrivals from './newArrivals.vue';
 import customerReview from './customerReview.vue';
+import ourBlog from './ourBlog.vue';
 export default {
     data() {
         return {
@@ -18,7 +19,8 @@ export default {
         bestSellers,
         FreeShipping,
         newArrivals,
-        customerReview
+        customerReview,
+        ourBlog,
     }
 }
 </script>
@@ -32,6 +34,7 @@ export default {
         <FreeShipping />
         <newArrivals />
         <customerReview />
+        <ourBlog />
     </main>
 </template>
 

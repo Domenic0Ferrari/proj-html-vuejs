@@ -17,10 +17,10 @@ export default {
 
 <template>
     <div class="container d-flex flex-column align-items-center gap-3 mt-5 mb-5">
-        <div class="my-head d-flex align-itmes-center justify-content-between">
-            <hr>
+        <div class="my-container d-flex align-items-center justify-content-center gap-3">
+            <div class="border"></div>
             <h3>Featured Products</h3>
-            <hr>
+            <div class="border"></div>
         </div>
         <h5>Must have products from our top sellers</h5>
         <div>
@@ -36,18 +36,6 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../assets/style/general.scss' as *;
-
-.my-head {
-    width: 100%;
-
-    hr {
-        width: 450px;
-    }
-
-    h3 {
-        font-size: 35px;
-    }
-}
 
 h5 {
     font-size: 14px;

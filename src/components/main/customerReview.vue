@@ -6,13 +6,13 @@ export default {
 
 <template>
     <main>
-        <div class="container d-flex flex-column align-items-center justify-content-center">
+        <div class="my-cnt d-flex flex-column align-items-center justify-content-center">
             <img src="../../assets/images/man_testimonial.png" alt="#">
             <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maxime et sunt eos
                 assumenda nihil corrupti
                 laudantium nemo, illum voluptate. Iusto eaque consequuntur unde itaque accusantium quia laboriosam saepe
                 quod.</p>
-            <div class="text-light">Darìo Pineda</div>
+            <div class="text-light">Darìo Pineda, Theme Fusion</div>
         </div>
     </main>
 </template>
@@ -27,9 +27,11 @@ main {
     background-repeat: no-repeat;
     height: 400px;
 
-    .container {
+    .my-cnt {
+        max-width: 800px;
         height: 100%;
         gap: 2rem;
+        margin: 0 auto;
     }
 }
 </style>
