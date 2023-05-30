@@ -51,21 +51,21 @@ export default {
 }
 
 .one {
-    background-image: url('../assets/images/winter_collection_bg.jpg');
+    background-image: url('../../assets/images/winter_collection_bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .two {
-    background-image: url('../assets/images/spring_collection_bg.jpg');
+    background-image: url('../../assets/images/spring_collection_bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .three {
-    background-image: url('../assets/images/autumn_collection_bg.jpg');
+    background-image: url('../../assets/images/autumn_collection_bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

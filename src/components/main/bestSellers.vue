@@ -1,10 +1,6 @@
 <script>
-import AppCard from './appCard.vue';
-
 export default {
-    components: {
-        AppCard
-    }
+
 }
 </script>
 
@@ -28,32 +24,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/style/general.scss' as *;
-
-.my-head {
-    width: 100%;
-
-    hr {
-        width: 450px;
-    }
-
-    h3 {
-        font-size: 35px;
-    }
-}
-
-h5 {
-    font-size: 14px;
-    color: $brand_first;
-}
-
-button {
-    background-color: $brand_fourth;
-    border: 1px solid $brand_second;
-    padding: .6rem 2.2rem;
-}
-
-.contain-card {
-    width: 100%;
-}
+@use '../../assets/style/general.scss' as *;
 </style>

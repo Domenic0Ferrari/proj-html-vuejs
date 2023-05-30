@@ -22,11 +22,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/style/general.scss' as *;
+@use '../../assets/style/general.scss' as *;
 
 .main {
     height: 520px;
-    background-image: url('../assets/images/home1_slide_three_bg_2.jpg');
+    background-image: url('../../assets/images/home1_slide_three_bg_2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
