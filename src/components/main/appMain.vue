@@ -7,6 +7,7 @@ import FreeShipping from './freeShipping.vue';
 import newArrivals from './newArrivals.vue';
 import customerReview from './customerReview.vue';
 import ourBlog from './ourBlog.vue';
+import summaryVue from './summary.vue';
 export default {
     data() {
         return {
@@ -21,6 +22,7 @@ export default {
         newArrivals,
         customerReview,
         ourBlog,
+        summaryVue,
     }
 }
 </script>
@@ -35,6 +37,7 @@ export default {
         <newArrivals />
         <customerReview />
         <ourBlog />
+        <summaryVue />
     </main>
 </template>
 

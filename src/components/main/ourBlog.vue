@@ -14,12 +14,24 @@ export default {
     <div class="container d-flex gap-4 mb-4 mt-5">
         <div class="card">
             <img src="../../assets/images/post_img_12-300x188.jpg" alt="#">
+            <h6>Aenan lobortis sapien enim viverra</h6>
+            <div class="date">September 9th, 2015 | 0 comments</div>
+            <div class="para">Etiam finibus suscipit odio, quis cursus dui pharetra vitae. Donec hendrerit tincidunt congue.
+            </div>
         </div>
         <div class="card">
             <img src="../../assets/images/post_img_11-300x188.jpg" alt="#">
+            <h6>Duic ac massa semper maximus</h6>
+            <div class="date">September 9th, 2015 | 0 comments</div>
+            <div class="para">Etiam finibus suscipit odio, quis cursus dui pharetra vitae. Donec hendrerit tincidunt congue.
+            </div>
         </div>
         <div class="card">
             <img src="../../assets/images/post_img_10-300x188.jpg" alt="#">
+            <h6>Nunc femrint nulla eu justo sem id</h6>
+            <div class="date">September 9th, 2015 | 0 comments</div>
+            <div class="para">Etiam finibus suscipit odio, quis cursus dui pharetra vitae. Donec hendrerit tincidunt congue.
+            </div>
         </div>
     </div>
     <div class="my-border"></div>
@@ -29,15 +41,24 @@ export default {
 @use '../../assets/style/general.scss' as *;
 
 .card {
-    height: 300px;
     width: calc(100% / 3);
     border: 0;
     border-radius: 0;
+
+    .date {
+        font-size: 12px;
+    }
+
+    .para {
+        padding: 1rem 0;
+        font-size: 15px;
+    }
 }
 
 .my-border {
-    width: 100%;
-    height: 2px;
-    background-color: $brand_first;
+    margin: 0 auto;
+    width: 95%;
+    height: 1px;
+    background-color: $brand_second;
 }
 </style>
