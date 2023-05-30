@@ -2,8 +2,15 @@
 import AppCard from './appCard.vue';
 
 export default {
+    data() {
+        return {
+        }
+    },
     components: {
         AppCard
+    },
+    methods: {
+
     }
 }
 </script>
