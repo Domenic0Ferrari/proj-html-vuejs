@@ -23,12 +23,11 @@ export default {
             <div class="cont_img">
                 <img src="../assets/images/classic_shop_logo1x.png" alt="#">
             </div>
-            <div class="d-flex gap-5 align-items-center">
-                <ul class="d-flex gap-3">
+            <div class="d-flex gap-5 align-items-center cont-menu">
+                <ul class="gap-3">
                     <li v-for="menu in menu">{{ menu }}
                         <div v-if="menu === 'News'"></div>
-                        <font-awesome-icon v-else icon="fa-solid fa-angle-down" style="color: #AAAAAA;" />
-                        <!-- sistemare le icone perchè non funzionano con l'hover -->
+                        <font-awesome-icon v-else icon="fa-solid fa-angle-down" />
                     </li>
                 </ul>
                 <button class="px-3 py-2">SHOP NOW!</button>
@@ -49,12 +48,24 @@ header {
         height: 90px;
 
         .container {
-            height: 100%;
+            height: 90px;
+
+            .cont-menu {
+                height: 90px;
+            }
 
             ul {
-                height: 100%;
+                display: flex;
+                align-items: center;
+                height: 90px;
                 margin: 0;
                 color: $brand_second;
+
+                li {
+                    line-height: 90px;
+                    height: 100%;
+                    color: $brand_second;
+                }
 
                 li:hover {
                     color: $brand_third;

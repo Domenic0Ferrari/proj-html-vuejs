@@ -17,9 +17,6 @@ export default {
             <button>WOMAN</button>
             <button>ACCESSORIES</button>
         </div>
-        <div class="contain-card d-flex justify-content-between gap-3">
-            <AppCard />
-        </div>
     </div>
 </template>
 

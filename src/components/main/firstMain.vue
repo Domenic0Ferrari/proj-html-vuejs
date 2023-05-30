@@ -14,10 +14,6 @@ export default {
                 <button class="my-btn">LOOKBOOK</button>
             </div>
         </div>
-        <div class="offer d-flex flex-column gap-1">
-            <div class="my-square"></div>
-            <div class="my-square"></div>
-        </div>
     </div>
 </template>
 
@@ -61,19 +57,5 @@ export default {
             color: white;
         }
     }
-
-    .offer {
-        position: absolute;
-        top: -8px;
-        right: 15px;
-
-        .my-square {
-            height: 50px;
-            width: 50px;
-            background-color: $brand_fourth;
-            border-radius: 5px;
-        }
-    }
-
 }
 </style>
