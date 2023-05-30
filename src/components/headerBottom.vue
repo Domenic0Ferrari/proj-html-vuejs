@@ -24,9 +24,10 @@ export default {
                 <img src="../assets/images/classic_shop_logo1x.png" alt="#">
             </div>
             <div class="d-flex gap-5 align-items-center">
-                <ul class="d-flex gap-3 align-items-center">
+                <ul class="d-flex gap-3">
                     <li v-for="menu in menu">{{ menu }}
-                        <font-awesome-icon icon="fa-solid fa-angle-down" style="color: #AAAAAA;" />
+                        <div v-if="menu === 'News'"></div>
+                        <font-awesome-icon v-else icon="fa-solid fa-angle-down" style="color: #AAAAAA;" />
                         <!-- sistemare le icone perchè non funzionano con l'hover -->
                     </li>
                 </ul>
@@ -59,7 +60,6 @@ header {
                     color: $brand_third;
                     cursor: pointer;
                     border-top: 3px solid $brand_third;
-                    // sistemare 
                 }
             }
 

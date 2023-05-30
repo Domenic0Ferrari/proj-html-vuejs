@@ -12,7 +12,9 @@ export default {
 </script>
 
 <template>
-    <firstMain />
+    <main>
+        <firstMain />
+    </main>
 </template>
 
 <style lang="scss" scoped></style>
