@@ -10,14 +10,16 @@ export default {
             <div class="row d-flex gap-3">
                 <div class="col promo-1">
                     <h3>70% OFF</h3>
-                    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, corporis dolores! Explicabo,
+                    <div class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, corporis
+                        dolores! Explicabo,
                         accusamus, provident ipsam dignissimos dolore libero error fuga quidem asperiores facilis
                         necessitatibus eveniet eligendi recusandae atque ipsa ducimus!</div>
                     <button>VIEW MORE</button>
                 </div>
                 <div class="col promo-2">
                     <h3>FREE SHIPPING</h3>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus possimus recusandae voluptate,
+                    <div class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus possimus
+                        recusandae voluptate,
                         velit consectetur dolorum aspernatur harum cumque eius esse magnam reiciendis accusamus minus nisi
                         quas, veritatis vero repellendus commodi?</div>
                     <button>VIEW MORE</button>

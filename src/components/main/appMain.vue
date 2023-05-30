@@ -4,6 +4,7 @@ import firstMain from './firstMain.vue';
 import productsMain from './productsMain.vue';
 import bestSellers from './bestSellers.vue';
 import FreeShipping from './freeShipping.vue';
+import newArrivals from './newArrivals.vue'
 export default {
     data() {
         return {
@@ -14,7 +15,8 @@ export default {
         productsMain,
         CollectMain,
         bestSellers,
-        FreeShipping
+        FreeShipping,
+        newArrivals
     }
 }
 </script>
@@ -26,6 +28,7 @@ export default {
         <CollectMain />
         <bestSellers />
         <FreeShipping />
+        <newArrivals />
     </main>
 </template>
 
