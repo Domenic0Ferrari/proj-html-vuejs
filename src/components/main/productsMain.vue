@@ -4,6 +4,10 @@ import AppCard from './appCard.vue';
 export default {
     data() {
         return {
+            myArr: [{
+                "image": "public/black_elegant_leather_jacket-200x260.jpg",
+                "style": "Black Leather Jacket"
+            }]
         }
     },
     components: {
@@ -29,7 +33,7 @@ export default {
             <button>ACCESSORIES</button>
         </div>
         <div class="contain-card d-flex justify-content-between gap-3">
-            <AppCard />
+            <AppCard :myArr="myArr" />
         </div>
     </div>
 </template>

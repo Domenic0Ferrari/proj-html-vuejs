@@ -1,6 +1,9 @@
 <script>
 import { faSquareCheck } from '@fortawesome/free-regular-svg-icons';
 export default {
+    props: {
+        myArr: Array,
+    },
     components: {
         faSquareCheck
     }
@@ -9,11 +12,12 @@ export default {
 
 <template>
     <div class="card d-flex flex-column gap-2">
-        <img src="../../assets/images/black_elegant_leather_jacket-200x260.jpg" alt="#">
-        <!-- <div class="card-hover">
-                <font-awesome-icon icon="fa-regular fa-square-check" />
-            </div> -->
-        <h6>Black Leather Jacket</h6>
+        <img :src="myArr[0].image" alt="#">
+        <!-- <div class="card-hover"> 
+                                  <font-awesome-icon icon="fa-regular fa-square-check" />
+                                     </div> 
+                                        -->
+        <h6>{{ myArr[0].style }}</h6>
         <div class="my-style">Men, Jackets</div>
         <div class="d-flex gap-3 align-items-end">
             <span class="text-decoration-line-through">$235</span>

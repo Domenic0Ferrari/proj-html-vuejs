@@ -20,7 +20,7 @@ export default {
     <div class="d-flex justify-content-between mb-5 align-items-center">
         <button><font-awesome-icon icon="fa-solid fa-chevron-left" /></button>
         <div class="card">
-            <img src="../../assets/images/black_elegant_leather_jacket-200x260.jpg" alt="#">
+            <img src="public/black_elegant_leather_jacket-200x260.jpg" alt="#">
         </div>
         <div class="card">
             <img src="../../assets/images/hipster_black_top-200x260.jpg" alt="#">

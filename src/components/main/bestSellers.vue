@@ -28,7 +28,7 @@ export default {
                 <img src="../../assets/images/black_leather_jacket-200x260.jpg" alt="#">
             </div>
             <div class="col">
-                <img src="../../assets/images/black_elegant_leather_jacket-200x260.jpg" alt="#">
+                <img src="public/black_elegant_leather_jacket-200x260.jpg" alt="#">
             </div>
             <div class="col">
                 <img src="../../assets/images/hipster_black_top-200x260.jpg" alt="#">
