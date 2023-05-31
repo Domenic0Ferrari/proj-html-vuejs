@@ -58,6 +58,10 @@ main {
             background-color: $brand_third;
             color: white;
             border: 0;
+
+            &:hover {
+                background-color: rgba($color: $brand_third, $alpha: 0.5);
+            }
         }
     }
 }

@@ -41,6 +41,10 @@ main {
         padding: .4rem 2.3rem;
         color: white;
         font-size: 14px;
+
+        &:hover {
+            border: 3px solid white;
+        }
     }
 
     h3 {
