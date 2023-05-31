@@ -21,7 +21,7 @@ export default {
 
 <template>
     <main>
-        <div class="container d-flex gap-5 justify-content-between pt-5">
+        <div class="container d-flex gap-5 justify-content-between pt-5 pb-5">
             <div class="my-card d-flex flex-column text-light gap-3">
                 <div>
                     <img src="../../assets/images/classic_shop_logo_footer.png" alt="#">

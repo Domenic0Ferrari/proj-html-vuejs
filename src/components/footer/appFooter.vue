@@ -1,5 +1,6 @@
 <script>
 import footerTop from './footerTop.vue';
+import footerBottom from './footerBottom.vue';
 export default {
     data() {
         return {
@@ -151,7 +152,8 @@ export default {
         }
     },
     components: {
-        footerTop
+        footerTop,
+        footerBottom
     }
 }
 </script>
@@ -159,6 +161,7 @@ export default {
 <template>
     <footerTop :footerContacts="footerContacts" :topRatedProducts="topRatedProducts" :recentPosts="recentPosts"
         :tagsList="tagsList" />
+    <footerBottom />
 </template>
 
 <style lang="scss" scoped>
