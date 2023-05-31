@@ -13,7 +13,7 @@ export default {
                         dolores! Explicabo,
                         accusamus, provident ipsam dignissimos dolore libero error fuga quidem asperiores facilis
                         necessitatibus eveniet eligendi recusandae atque ipsa ducimus!</div>
-                    <button>VIEW MORE</button>
+                    <button class="rounded-pill">VIEW MORE</button>
                 </div>
                 <div class="col promo-2">
                     <h3>FREE SHIPPING</h3>
@@ -21,7 +21,7 @@ export default {
                         recusandae voluptate,
                         velit consectetur dolorum aspernatur harum cumque eius esse magnam reiciendis accusamus minus nisi
                         quas, veritatis vero repellendus commodi?</div>
-                    <button>VIEW MORE</button>
+                    <button class="rounded-pill">VIEW MORE</button>
                 </div>
             </div>
         </div>
@@ -38,7 +38,6 @@ main {
     button {
         background-color: rgba($color: white, $alpha: 0.3);
         border: 2px solid white;
-        border-radius: 15px;
         padding: .4rem 2.3rem;
         color: white;
         font-size: 14px;

@@ -10,8 +10,8 @@ export default {
             <h2>Brand New Arrivals</h2>
             <h3>NEW COLLECTION FROM NEW YORK</h3>
             <div class="d-flex gap-2">
-                <button class="my-btn">VIEW ALL</button>
-                <button class="my-btn">LOOKBOOK</button>
+                <button class="my-btn rounded-pill">VIEW ALL</button>
+                <button class="my-btn rounded-pill">LOOKBOOK</button>
             </div>
         </div>
     </div>
@@ -52,7 +52,6 @@ export default {
         .my-btn {
             background-color: rgba($color: white, $alpha: 0.1);
             border: 1px solid white;
-            border-radius: 15px;
             padding: .5rem 1.5rem;
             color: white;
         }

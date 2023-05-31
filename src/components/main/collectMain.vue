@@ -9,17 +9,17 @@ export default {
         <div class="card one d-flex flex-column align-items-center justify-content-end pb-5">
             <h2>Winter Collection</h2>
             <h4>STYLISH AND WARM</h4>
-            <button>VIEW MORE</button>
+            <button class="rounded-pill">VIEW MORE</button>
         </div>
         <div class="card two d-flex flex-column align-items-center justify-content-end pb-5">
             <h2>Spring Collection</h2>
             <h4>BRIGHT AND COLORFUL</h4>
-            <button>VIEW MORE</button>
+            <button class="rounded-pill">VIEW MORE</button>
         </div>
         <div class="card three d-flex flex-column align-items-center justify-content-end pb-5">
             <h2>Autumn Collection</h2>
             <h4>RICH AND COMFORTABLE</h4>
-            <button>VIEW MORE</button>
+            <button class="rounded-pill">VIEW MORE</button>
         </div>
     </div>
 </template>
@@ -43,7 +43,6 @@ export default {
     button {
         background-color: rgba($color: white, $alpha: 0.3);
         border: 2px solid white;
-        border-radius: 15px;
         padding: .4rem 2.3rem;
         color: white;
         font-size: 14px;

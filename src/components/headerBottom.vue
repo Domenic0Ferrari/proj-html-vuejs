@@ -30,7 +30,7 @@ export default {
                         <font-awesome-icon v-else icon="fa-solid fa-angle-down" />
                     </li>
                 </ul>
-                <button class="px-3 py-2">SHOP NOW!</button>
+                <button class="px-3 py-2 rounded-pill">SHOP NOW!</button>
                 <div>
                     <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
                 </div>
@@ -77,7 +77,6 @@ header {
             button {
                 background-color: $brand_third;
                 color: white;
-                border-radius: 20px;
                 border: 0;
             }
         }
