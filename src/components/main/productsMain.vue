@@ -4,10 +4,36 @@ import AppCard from './appCard.vue';
 export default {
     data() {
         return {
-            myArr: [{
-                "image": "public/black_elegant_leather_jacket-200x260.jpg",
-                "style": "Black Leather Jacket"
-            }]
+            myArr: [
+                {
+                    "image": "public/black_elegant_leather_jacket-200x260.jpg",
+                    "style": "Black Leather Jacket",
+                    "type": "men",
+                    "attribute": "Men, Jackets, Jeans",
+                    "price": "$200",
+                },
+                {
+                    "image": "public/black_leather_suit-200x260.jpg",
+                    "style": "Black Leather Suit",
+                    "type": "men",
+                    "attribute": "Men, Jackets",
+                    "price": "$176",
+                },
+                {
+                    "image": "public/blue_jacket_and_white_stripe_tee-200x260.jpg",
+                    "style": "Blue Jacket & Stripe Tee",
+                    "type": "men",
+                    "attribute": "Men, Jackets, Suit",
+                    "price": "$580",
+                },
+                {
+                    "image": "public/modern_black_leather_suit-200x260.jpg",
+                    "style": "Modern Black Leather Suit",
+                    "type": "men",
+                    "attribute": "Men, Jackets",
+                    "price": "$96",
+                },
+            ]
         }
     },
     components: {
