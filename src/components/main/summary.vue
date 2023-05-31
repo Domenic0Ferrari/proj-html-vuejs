@@ -166,9 +166,5 @@ export default {
     border-bottom: 1px solid $brand_second;
     display: flex;
     justify-content: space-between;
-
-    .my-star {
-        color: $brand_third;
-    }
 }
 </style>

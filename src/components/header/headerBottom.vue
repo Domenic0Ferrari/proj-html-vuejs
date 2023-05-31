@@ -21,7 +21,7 @@ export default {
     <div class="header_bottom">
         <div class="container d-flex align-items-center justify-content-between">
             <div class="cont_img">
-                <img src="../assets/images/classic_shop_logo1x.png" alt="#">
+                <img src="../../assets/images/classic_shop_logo1x.png" alt="#">
             </div>
             <div class="d-flex gap-5 align-items-center cont-menu">
                 <ul class="gap-3">
@@ -41,7 +41,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/style/general.scss' as *;
+@use '../../assets/style/general.scss' as *;
 
 header {
     .header_bottom {

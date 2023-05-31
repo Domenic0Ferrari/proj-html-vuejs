@@ -45,7 +45,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@use '../assets/style/general.scss' as *;
+@use '../../assets/style/general.scss' as *;
 
 header {
     .header_top {

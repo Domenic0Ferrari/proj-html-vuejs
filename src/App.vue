@@ -1,7 +1,7 @@
 <script>
-import appHeader from './components/appHeader.vue';
+import appHeader from './components/header/appHeader.vue';
 import appMain from './components/main/appMain.vue';
-import appFooter from './components/appFooter.vue';
+import appFooter from './components/footer/appFooter.vue';
 export default {
     data() {
         return {

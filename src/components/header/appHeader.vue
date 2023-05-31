@@ -29,7 +29,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/style/general.scss' as *;
+@use '../../assets/style/general.scss' as *;
 
 header {
     height: 150px;
