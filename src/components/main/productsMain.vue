@@ -96,7 +96,6 @@ export default {
         AppCard
     },
     methods: {
-
     }
 }
 </script>
@@ -111,8 +110,8 @@ export default {
         <h5>Must have products from our top sellers</h5>
         <div>
             <button @click="">MEN</button>
-            <button>WOMEN</button>
-            <button>ACCESSORIES</button>
+            <button @click="">WOMEN</button>
+            <button @click="">ACCESSORIES</button>
         </div>
         <div class="contain-card d-flex justify-content-between gap-3">
             <AppCard :myArr="myArr" />

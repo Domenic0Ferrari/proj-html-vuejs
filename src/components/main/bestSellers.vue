@@ -4,6 +4,8 @@ export default {
     components: {
         faChevronLeft,
         faChevronRight
+    },
+    methods: {
     }
 }
 </script>
@@ -17,7 +19,7 @@ export default {
         </div>
         <h5>Must have products from our top sellers</h5>
         <div class="row align-items-center">
-            <button><font-awesome-icon icon="fa-solid fa-chevron-left" /></button>
+            <button @click=""><font-awesome-icon icon="fa-solid fa-chevron-left" /></button>
             <div class="col">
                 <img src="public/spring_printed_dress-200x260.jpg" alt="#">
             </div>
@@ -33,7 +35,7 @@ export default {
             <div class="col">
                 <img src="public/hipster_black_top-200x260.jpg" alt="#">
             </div>
-            <button><font-awesome-icon icon="fa-solid fa-chevron-right" /></button>
+            <button @click=""><font-awesome-icon icon="fa-solid fa-chevron-right" /></button>
         </div>
     </div>
 </template>

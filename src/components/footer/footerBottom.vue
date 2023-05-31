@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div class="my-ft pt-5">
-        <div class="text-light text-center">&copy; Copyright 2021 - 2022 | Avada Theme by Chiara Cardinale | All Rights
+        <div class="text-light text-center">&copy; Copyright 2022 - 2023 | Avada Theme by Domenico Ferrari | All Rights
             Reserved |
             Powered by Boolean</div>
         <div class="d-flex justify-content-center pt-3">
