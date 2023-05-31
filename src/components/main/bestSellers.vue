@@ -19,19 +19,19 @@ export default {
         <div class="row align-items-center">
             <button><font-awesome-icon icon="fa-solid fa-chevron-left" /></button>
             <div class="col">
-                <img src="../../assets/images/spring_printed_dress-200x260.jpg" alt="#">
+                <img src="public/spring_printed_dress-200x260.jpg" alt="#">
             </div>
             <div class="col">
-                <img src="../../assets/images/modern_love_tee-200x260.jpg" alt="#">
+                <img src="public/modern_love_tee-200x260.jpg" alt="#">
             </div>
             <div class="col">
-                <img src="../../assets/images/black_leather_jacket-200x260.jpg" alt="#">
+                <img src="public/black_leather_jacket-200x260.jpg" alt="#">
             </div>
             <div class="col">
                 <img src="public/black_elegant_leather_jacket-200x260.jpg" alt="#">
             </div>
             <div class="col">
-                <img src="../../assets/images/hipster_black_top-200x260.jpg" alt="#">
+                <img src="public/hipster_black_top-200x260.jpg" alt="#">
             </div>
             <button><font-awesome-icon icon="fa-solid fa-chevron-right" /></button>
         </div>
