@@ -8,6 +8,7 @@ import newArrivals from './newArrivals.vue';
 import customerReview from './customerReview.vue';
 import ourBlog from './ourBlog.vue';
 import summaryVue from './summary.vue';
+import BrandLogo from './brandLogo.vue';
 export default {
     data() {
         return {
@@ -23,6 +24,7 @@ export default {
         customerReview,
         ourBlog,
         summaryVue,
+        BrandLogo
     }
 }
 </script>
@@ -38,6 +40,7 @@ export default {
         <customerReview />
         <ourBlog />
         <summaryVue />
+        <BrandLogo />
     </main>
 </template>
 
